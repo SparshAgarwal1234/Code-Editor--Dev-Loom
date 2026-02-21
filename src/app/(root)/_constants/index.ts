@@ -1,5 +1,8 @@
 import { Monaco } from "@monaco-editor/react";
 import { Theme } from "../../../types";
+import type { editor } from "monaco-editor";
+
+type BuiltinTheme = editor.BuiltinTheme;
 
 type LanguageConfig = Record<
   string,
